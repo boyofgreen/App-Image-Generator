@@ -1,25 +1,62 @@
-﻿body {
-
+﻿.pwa-generator-small {
+    display: block;
+    margin-bottom: 1rem;
+    max-width: 90%;
 }
 
-@-webkit-viewport {
-    width: device-width;
+.pwa-generator-input--hassmall {
+    margin-bottom: .5rem;
 }
 
-@-moz-viewport {
-    width: device-width;
+.pwa-generator-subtitle--last {
+    color: #868686;
+    font-size: 1.05rem;
 }
 
-@-ms-viewport {
-    width: device-width;
+.pwa-generator-subtitle--last p {
+    margin: 0;
 }
 
-@-o-viewport {
-    width: device-width;
+.pwa-generator-padded {
+    padding: 0 12vw;
 }
 
-@viewport {
-    width: device-width;
+.pwa-generator-label--check {
+    margin: 1rem 0;
 }
 
+.pwa-button--simple {
+    margin-top: 1rem;
+}
 
+.u-center {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: .8;
+}
+
+.colorpickers {
+    display: none;
+}
+
+@media screen and (max-width: 1280px) {
+    .pwa-generator-padded {
+        padding: 0 8vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .pwa-generator-padded {
+        padding: 0 2vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pwa-generator-padded {
+        padding: 0 1vw;
+    }
+}
